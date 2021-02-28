@@ -1,0 +1,37 @@
+ /* element selector */
+
+h1 {
+ color: red;
+}
+
+/* types of selectors
+1.element slector
+2.universal slector
+3.id selector
+4.class selector
+5.attribute selector */
+
+/* universal selctor */
+
+*{
+    border:1px solid green;
+}
+
+/* id selector */
+#hello {
+ background-color: hotpink;
+ text-transform: lowercase;
+}
+
+/* class selector */
+
+.para {
+ 
+    color:blueviolet;
+    text-transform: capitalize;
+
+}
+
+a[href="http://google.com"]{
+    background-color:red;
+}

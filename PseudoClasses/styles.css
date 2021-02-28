@@ -1,0 +1,41 @@
+div{
+    height:200px;
+    width:200px;
+    background-color: paleturquoise;
+    border:2px solid black;
+}
+
+div:hover {
+    border-radius: 50%;
+    background-color: pink;
+    cursor:pointer;
+
+}
+
+a:active{
+    color:green;
+}
+
+input:focus{
+    background-color: greenyellow;
+}
+
+a[href="https://instagram.com"] :visited{
+    background-color: indianred;
+}
+
+li:hover{
+    background-color: grey;
+}
+li:first-child{
+    background-color: lightcoral;
+}
+
+#special::first-letter {
+    font-size: 30px;
+    color:blue;
+}
+
+a::before {
+    content: "♥";
+  }

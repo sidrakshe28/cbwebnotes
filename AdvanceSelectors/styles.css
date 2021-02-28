@@ -1,0 +1,36 @@
+
+/* combinators
+1.descendent combinators
+2.child combinator
+3.ajacent combinators
+4.general sibling */
+
+
+/* descendent combinators */
+ul a {
+    background-color:red;
+}
+
+artcile p em strong{
+    text-transform: uppercase;
+    background-color: aqua;
+}
+
+/* /child combinators */
+
+ul li{
+    border-top:2px solid blue;
+}
+
+/* adjacent combinarors */
+
+h1+p {
+    background-color: beige;
+}
+
+/* genral sibling */
+
+h3 ~ p{
+color:pink;
+text-indent: 0cm;
+}
