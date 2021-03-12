@@ -1,0 +1,17 @@
+h1{
+    border:2px black;
+    background-color: cyan;
+    display:inline;
+}
+
+/* display property-
+inline- in inline only margin and padding will work.height and width wont work.
+block- all the properties height,width,margin and padding will work.
+inline block
+none-it will be there but wont be displayed */
+
+span{
+    background-color: blueviolet;
+    border: black;
+    dispaly:block;
+}

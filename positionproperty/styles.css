@@ -1,0 +1,20 @@
+ /* position property- */
+ /* static
+ relative
+ absolute
+ fixed
+  sticky */
+
+   div{
+       border: 2px solid balck;
+       background-color:brown;
+       height:150px;
+       width:150px;
+       display:inline-block;
+   }
+  #static #middle{
+  position: static;
+  }
+  #relative #middle{
+      position: relative;
+  }

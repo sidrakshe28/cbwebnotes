@@ -1,0 +1,14 @@
+li{
+    border: 1px  solid #ccc;
+    margin:10px auto;
+    width:60%
+    /* /* //list-style-type: none;
+  */
+}
+h1{
+    text-align:center;
+}
+ul{
+    list-style-type: "\1FAD0" ;
+    
+}

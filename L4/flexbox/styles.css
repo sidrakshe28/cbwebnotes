@@ -1,0 +1,23 @@
+section {
+    width:700px;
+    height:800px;
+    margin:30px;
+    border:1px solid balck;
+    background-color: plum;
+    display:flex;
+    
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+h1{
+    text-align:center;
+}
+
+div{
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    font-size:3.5rem;
+}

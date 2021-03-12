@@ -39,3 +39,7 @@ li:first-child{
 a::before {
     content: "♥";
   }
+
+  /* specifity
+
+  id>class>ele */

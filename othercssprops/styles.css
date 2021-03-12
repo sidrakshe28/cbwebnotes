@@ -1,0 +1,26 @@
+article {
+    width:70vw;
+    border:2px solid black;
+    padding:20px;
+}
+p{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+p:hover{
+    text-overflow: ellipsis;
+    overflow: scroll;
+    cursor: pointer;
+}
+div{
+    max_width:600px;
+    min_width:400px;
+    color:pink;
+    border:2px solid black;
+}
+
+/* layout-
+display
+float and clear
+positions 
+flex box*/

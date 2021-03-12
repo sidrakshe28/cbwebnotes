@@ -1,0 +1,15 @@
+ font size
+ font family
+ font vraint
+
+ article{
+     border: 1px solid balck;
+     margin:30px auto;
+     padding :20px;
+     width:80vw;
+     font-family: 'Times New Roman', Times, serif;
+ }
+
+ h1{
+     text-shadow: 3px 4px 5px red,3px 4px 5px yellow;
+ }

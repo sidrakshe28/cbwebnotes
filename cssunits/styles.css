@@ -1,5 +1,25 @@
-absolute units
+/* absolute units
 px
 menuitemin
 relative units
-%,cn,rem,
+%,cn,rem, */
+
+#wrapper{
+    width: 600px;
+    height:500px;
+    border: 2px solid black;
+    margin :30px auto;
+}
+
+div{
+    border:2px solid pink;
+
+}
+
+#container {
+    border:2px solid black;
+    border-color:rebeccapurple;
+     width:70vw;
+      /* // in responsive design  it helps */ 
+    height:70vh;
+}
