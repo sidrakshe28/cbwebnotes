@@ -1,0 +1,15 @@
+section{
+    width:80vw;
+    border:1px solid #ccc;
+    padding-left: 30px;
+    margin-top: 20px;
+    margin: auto;
+}
+
+h1{
+    font-size: 2.2.rem;
+    text-align:center;
+    border-color:rgb(39, 134, 218);
+    border-style: double;
+    background-color: blanchedalmond;
+}

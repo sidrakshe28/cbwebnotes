@@ -1,0 +1,32 @@
+div{
+    height:100px;
+    width:100px;
+    border:3px solid black;
+    margin:10px;
+    background-color: cyan ;
+    transition-duration: 2s;
+    transition-property:all;
+
+}
+section{
+    width:90vw;
+    margin:50px auto;
+    border: 1px solid #ccc;
+}
+h1{
+    text-align:  center;
+}
+section:hover div{
+    margin-left: 900px;
+}
+div:nth-last-of-type(1){
+    transition-timing-function:ease-in ;
+}
+
+div:nth-last-of-type(2){
+    transition-timing-function:ease-out ;
+}
+
+div:nth-last-of-type(3){
+    transition-timing-function:ease-in-out ;
+}

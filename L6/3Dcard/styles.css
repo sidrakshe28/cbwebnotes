@@ -1,0 +1,34 @@
+div{
+    height: 300px;
+    width:500px;
+    margin:40px auto;
+}
+
+.side-a,
+.side-b{
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.side-a{
+    background-color: paleturquoise;
+    z-index: 1;
+}
+
+.side-b{
+    background-color: red ;
+    transform: rotateY(180deg);
+}
+
+.wrap{
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+.wrap:hover{
+    transform: rotateY(180deg);
+    cursor: pointer;
+}
+
+section{
+    perspective: 800px;
+}
